@@ -131,6 +131,7 @@ function clearAllLinks() {
     }
 }
 
+/* ===== اتصل بنا ===== */
 function openContactModal() {
     document.getElementById("dropdownMenu").style.display = "none";
     document.getElementById("contactModal").style.display = "flex";
@@ -171,6 +172,7 @@ function sendContactMessage() {
 
     setTimeout(closeContactModal, 500);
 }
+
 
 
 
