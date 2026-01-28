@@ -154,7 +154,7 @@ function sendContactMessage() {
         return;
     }
 
-    const subject = "رسالة من بوابة الإشراف التربوي";
+    const subject = "رسالة من بوابة خدمات الإشراف التربوي";
     const body =
         "البريد الإلكتروني: " + email + "\n" +
         "رقم الهاتف: " + (phone || "غير مدخل") + "\n\n" +
@@ -171,6 +171,7 @@ function sendContactMessage() {
 
     setTimeout(closeContactModal, 500);
 }
+
 
 
 
